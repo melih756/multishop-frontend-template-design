@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MultiShop - Online Shop Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">  
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Topbar Start -->
+    <div class="container-fluid">
+        <div class="row bg-secondary py-1 px-xl-5">
+            <div class="col-lg-6 d-none d-lg-block">
+                <div class="d-inline-flex align-items-center h-100">
+                    <a class="text-body mr-3" href="about.html">Hakkında</a>
+                    <a class="text-body mr-3" href="contact.html">İletişim</a>
+                    <a class="text-body mr-3" href="">Yardım</a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-right">
+                <div class="d-inline-flex align-items-center">
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Hesabım</button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <button class="dropdown-item" type="button">Giriş Yap</button>
+                            <button class="dropdown-item" type="button">Çıkış Yap</button>
+                        </div>
+                    </div>
+                    <div class="btn-group mx-2">
+                        <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">USD</button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <button class="dropdown-item" type="button">EUR</button>
+                            <button class="dropdown-item" type="button">GBP</button>
+                            <button class="dropdown-item" type="button">CAD</button>
+                        </div>
+                    </div>
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">EN</button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <button class="dropdown-item" type="button">FR</button>
+                            <button class="dropdown-item" type="button">AR</button>
+                            <button class="dropdown-item" type="button">RU</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-inline-flex align-items-center d-block d-lg-none">
+                    <a href="" class="btn px-0 ml-2">
+                        <i class="fas fa-heart text-dark"></i>
+                        <span class="badge text-dark border border-dark rounded-circle" style="padding-bottom: 2px;">0</span>
+                    </a>
+                    <a href="cart.html" class="btn px-0 ml-2">
+                        <i class="fas fa-shopping-cart text-dark"></i>
+                        <span class="badge text-dark border border-dark rounded-circle" style="padding-bottom: 2px;">0</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
+            <div class="col-lg-4">
+                <a href="" class="text-decoration-none">
+                    <span class="h1 text-uppercase text-primary bg-dark px-2">Multi</span>
+                    <span class="h1 text-uppercase text-dark bg-primary px-2 ml-n1">Shop</span>
+                </a>
+            </div>
+            <div class="col-lg-4 col-6 text-left">
+                <form action="">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Ürün Ara">
+                        <div class="input-group-append">
+                            <span class="input-group-text bg-transparent text-primary">
+                                <i class="fa fa-search"></i>
+                            </span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-4 col-6 text-right">
+                <p class="m-0">Müşteri Hizmetleri</p>
+                <h5 class="m-0">+012 345 6789</h5>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-dark mb-30">
+        <div class="row px-xl-5">
+            <div class="col-lg-3 d-none d-lg-block">
+                <a class="btn d-flex align-items-center justify-content-between bg-primary w-100" data-toggle="collapse" href="#navbar-vertical" style="height: 65px; padding: 0 30px;">
+                    <h6 class="text-dark m-0"><i class="fa fa-bars mr-2"></i>Kategoriler</h6>
+                    <i class="fa fa-angle-down text-dark"></i>
+                </a>
+                <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 bg-light" id="navbar-vertical" style="width: calc(100% - 30px); z-index: 999;">
+                    <div class="navbar-nav w-100">
+                        <div class="nav-item dropdown dropright">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Kıyafetler <i class="fa fa-angle-right float-right mt-1"></i></a>
+                            <div class="dropdown-menu position-absolute rounded-0 border-0 m-0">
+                                <a href="man.html" class="dropdown-item">Erkek Kıyafetleri</a>
+                                <a href="woman.html" class="dropdown-item">Kadın Kıyafetleri</a>
+                            </div>
+                        </div>
+                        <a href="shirts.html" class="nav-item nav-link">Gömlekler</a>
+                        <a href="jeans.html" class="nav-item nav-link">Jeans</a>
+                        <a href="pijama.html" class="nav-item nav-link">Pijama</a>
+                        <a href="jacket.html" class="nav-item nav-link">Ceketler</a>
+                        <a href="shoes.html" class="nav-item nav-link">Ayakkabılar</a>
+                        <a href="clock.html" class="nav-item nav-link">Saat</a>
+                        <a href="office.html" class="nav-item nav-link">Ofis Ürünleri</a>
+                        <a href="person.html" class="nav-item nav-link">Kişisel Bakım</a>
+                        <a href="garden.html" class="nav-item nav-link">Bahçe Ürünleri</a>
+                        <a href="hobies.html" class="nav-item nav-link">Hobi Ürünleri</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-0">
+                    <a href="" class="text-decoration-none d-block d-lg-none">
+                        <span class="h1 text-uppercase text-dark bg-light px-2">MLH</span>
+                        <span class="h1 text-uppercase text-light bg-primary px-2 ml-n1">Shop</span>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto py-0">
+                            <a href="index.html" class="nav-item nav-link">Anasayfa</a>
+                            <a href="shop.html" class="nav-item nav-link active">Alışveriş</a>
+                            <a href="login.html" class="nav-item nav-link">Giriş/Kayıt Ol</a>
+                            <a href="admin.html" class="nav-item nav-link">Yönetici</a>
+                        </div>
+                        <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
+                            <a href="" class="btn px-0">
+                                <i class="fas fa-heart text-primary"></i>
+                                <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
+                            </a>
+                            <a href="cart.html" class="btn px-0 ml-3">
+                                <i class="fas fa-shopping-cart text-primary"></i>
+                                <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Breadcrumb Start -->
+    <div class="container-fluid">
+        <div class="row px-xl-5">
+            <div class="col-12">
+                <nav class="breadcrumb bg-light mb-30">
+                    <a class="breadcrumb-item text-dark" href="#">Anasayfa</a>
+                    <a class="breadcrumb-item text-dark" href="#">Alışveriş</a>
+                    <span class="breadcrumb-item active">Alışveriş Listesi</span>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Breadcrumb End -->
+
+
+    <!-- Shop Start -->
+    <div class="container-fluid">
+        <div class="row px-xl-5">
+            <!-- Shop Sidebar Start -->
+            <div class="col-lg-3 col-md-4">
+                <!-- Price Start -->
+                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Filtrele</span></h5>
+                <div class="bg-light p-4 mb-30">
+                    <form>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" checked id="price-all">
+                            <label class="custom-control-label" for="price-all">Hepsi</label>
+                            <span class="badge border font-weight-normal">1000</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="price-1">
+                            <label class="custom-control-label" for="price-1">0 - 100 TL</label>
+                            <span class="badge border font-weight-normal">150</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="price-2">
+                            <label class="custom-control-label" for="price-2">100 - 200 TL</label>
+                            <span class="badge border font-weight-normal">295</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="price-3">
+                            <label class="custom-control-label" for="price-3">200 - 300 TL</label>
+                            <span class="badge border font-weight-normal">246</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="price-4">
+                            <label class="custom-control-label" for="price-4">300 - 400 TL</label>
+                            <span class="badge border font-weight-normal">145</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
+                            <input type="checkbox" class="custom-control-input" id="price-5">
+                            <label class="custom-control-label" for="price-5">400 - 500 TL</label>
+                            <span class="badge border font-weight-normal">168</span>
+                        </div>
+                    </form>
+                </div>
+                <!-- Price End -->
+                
+                <!-- Color Start -->
+                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Renk Seç</span></h5>
+                <div class="bg-light p-4 mb-30">
+                    <form>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" checked id="color-all">
+                            <label class="custom-control-label" for="price-all">Hepsi</label>
+                            <span class="badge border font-weight-normal">1000</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="color-1">
+                            <label class="custom-control-label" for="color-1">Siyah</label>
+                            <span class="badge border font-weight-normal">150</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="color-2">
+                            <label class="custom-control-label" for="color-2">Beyaz</label>
+                            <span class="badge border font-weight-normal">295</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="color-3">
+                            <label class="custom-control-label" for="color-3">Kırmızı</label>
+                            <span class="badge border font-weight-normal">246</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="color-4">
+                            <label class="custom-control-label" for="color-4">Mavi</label>
+                            <span class="badge border font-weight-normal">145</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
+                            <input type="checkbox" class="custom-control-input" id="color-5">
+                            <label class="custom-control-label" for="color-5">Yeşil</label>
+                            <span class="badge border font-weight-normal">168</span>
+                        </div>
+                    </form>
+                </div>
+                <!-- Color End -->
+
+                <!-- Size Start -->
+                <h5 class="section-title position-relative text-uppercase mb-3"><span class="bg-secondary pr-3">Beden Seç</span></h5>
+                <div class="bg-light p-4 mb-30">
+                    <form>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" checked id="size-all">
+                            <label class="custom-control-label" for="size-all">Hepsi</label>
+                            <span class="badge border font-weight-normal">1000</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="size-1">
+                            <label class="custom-control-label" for="size-1">XS</label>
+                            <span class="badge border font-weight-normal">150</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="size-2">
+                            <label class="custom-control-label" for="size-2">S</label>
+                            <span class="badge border font-weight-normal">295</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="size-3">
+                            <label class="custom-control-label" for="size-3">M</label>
+                            <span class="badge border font-weight-normal">246</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between mb-3">
+                            <input type="checkbox" class="custom-control-input" id="size-4">
+                            <label class="custom-control-label" for="size-4">L</label>
+                            <span class="badge border font-weight-normal">145</span>
+                        </div>
+                        <div class="custom-control custom-checkbox d-flex align-items-center justify-content-between">
+                            <input type="checkbox" class="custom-control-input" id="size-5">
+                            <label class="custom-control-label" for="size-5">XL</label>
+                            <span class="badge border font-weight-normal">168</span>
+                        </div>
+                    </form>
+                </div>
+                <!-- Size End -->
+            </div>
+            <!-- Shop Sidebar End -->
+
+
+            <!-- Shop Product Start -->
+            <div class="col-lg-9 col-md-8">
+                <div class="row pb-3">
+                    <div class="col-12 pb-1">
+                        <div class="d-flex align-items-center justify-content-between mb-4">
+                            <div>
+                                <button class="btn btn-sm btn-light"><i class="fa fa-th-large"></i></button>
+                                <button class="btn btn-sm btn-light ml-2"><i class="fa fa-bars"></i></button>
+                            </div>
+                            <div class="ml-2">
+                                <div class="btn-group">
+                                    <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Sırala</button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="#">Son Eklenenler</a>
+                                        <a class="dropdown-item" href="#">Popüler</a>
+                                        <a class="dropdown-item" href="#">Çok Satanlar</a>
+                                    </div>
+                                </div>
+                                <div class="btn-group ml-2">
+                                    <button type="button" class="btn btn-sm btn-light dropdown-toggle" data-toggle="dropdown">Göster</button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="#">10</a>
+                                        <a class="dropdown-item" href="#">20</a>
+                                        <a class="dropdown-item" href="#">30</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                        <div class="product-item bg-light mb-4">
+                            <div class="product-img position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/table.jpg" alt="">
+                                <div class="product-action">
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center py-4">
+                                <a class="h6 text-decoration-none text-truncate" href="detail.html">Ofis Masası</a>
+                                <div class="d-flex align-items-center justify-content-center mt-2">
+                                    <h5>1300 TL</h5><h6 class="text-muted ml-2"><del>2000 TL</del></h6>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center mb-1">
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small>(99)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                        <div class="product-item bg-light mb-4">
+                            <div class="product-img position-relative overflow-hidden">
+                                <a><img class="img-fluid w-100" src="img/table1.jpg" alt=""></a>
+                                <div class="product-action">
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center py-4">
+                                <a class="h6 text-decoration-none text-truncate" href="detail.html">Ofis Masası</a>
+                                <div class="d-flex align-items-center justify-content-center mt-2">
+                                    <h5>2000 TL</h5><h6 class="text-muted ml-2"><del>2500 TL</del></h6>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center mb-1">
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star-half-alt text-primary mr-1"></small>
+                                    <small>(99)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                        <div class="product-item bg-light mb-4">
+                            <div class="product-img position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/tv.jpg" alt="" >
+                                <div class="product-action">
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center py-4">
+                                <a class="h6 text-decoration-none text-truncate" href="detail.html">Akıllı Tv</a>
+                                <div class="d-flex align-items-center justify-content-center mt-2">
+                                    <h5>5500 TL</h5><h6 class="text-muted ml-2"><del>8000 TL</del></h6>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center mb-1">
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star-half-alt text-primary mr-1"></small>
+                                    <small class="far fa-star text-primary mr-1"></small>
+                                    <small>(99)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                        <div class="product-item bg-light mb-4">
+                            <div class="product-img position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/table-team.jpg" >
+                                <div class="product-action">
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center py-4">
+                                <a class="h6 text-decoration-none text-truncate" href="detail.html">Ofis Takımı</a>
+                                <div class="d-flex align-items-center justify-content-center mt-2">
+                                    <h5>11000 TL</h5><h6 class="text-muted ml-2"><del>15000 TL</del></h6>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center mb-1">
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="far fa-star text-primary mr-1"></small>
+                                    <small class="far fa-star text-primary mr-1"></small>
+                                    <small>(99)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                        <div class="product-item bg-light mb-4">
+                            <div class="product-img position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/koltuk.jpg" alt="">
+                                <div class="product-action">
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center py-4">
+                                <a class="h6 text-decoration-none text-truncate" href="detail.html">Ofis Sandalyesi</a>
+                                <div class="d-flex align-items-center justify-content-center mt-2">
+                                    <h5>900 TL</h5><h6 class="text-muted ml-2"><del>1300 TL</del></h6>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center mb-1">
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small>(99)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                        <div class="product-item bg-light mb-4">
+                            <div class="product-img position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/koltuk1.jpg" alt="">
+                                <div class="product-action">
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center py-4">
+                                <a class="h6 text-decoration-none text-truncate" href="detail.html">Ofis Sandalyesi</a>
+                                <div class="d-flex align-items-center justify-content-center mt-2">
+                                    <h5>1000 TL</h5><h6 class="text-muted ml-2"><del>1500 TL</del></h6>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center mb-1">
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star-half-alt text-primary mr-1"></small>
+                                    <small>(99)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                        <div class="product-item bg-light mb-4">
+                            <div class="product-img position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/table-team2.jpg" alt="">
+                                <div class="product-action">
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center py-4">
+                                <a class="h6 text-decoration-none text-truncate" href="detail.html">Ofis Takımı</a>
+                                <div class="d-flex align-items-center justify-content-center mt-2">
+                                    <h5>5000 TL</h5><h6 class="text-muted ml-2"><del>8000 TL</del></h6>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center mb-1">
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star-half-alt text-primary mr-1"></small>
+                                    <small class="far fa-star text-primary mr-1"></small>
+                                    <small>(99)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                        <div class="product-item bg-light mb-4">
+                            <div class="product-img position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/office-team.jpg" style="width: 300px; height: 300px;">
+                                <div class="product-action">
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center py-4">
+                                <a class="h6 text-decoration-none text-truncate" href="detail.html">Ofis Takımı</a>
+                                <div class="d-flex align-items-center justify-content-center mt-2">
+                                    <h5>6000 TL</h5><h6 class="text-muted ml-2"><del>10000 TL</del></h6>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center mb-1">
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="far fa-star text-primary mr-1"></small>
+                                    <small class="far fa-star text-primary mr-1"></small>
+                                    <small>(99)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 pb-1">
+                        <div class="product-item bg-light mb-4">
+                            <div class="product-img position-relative overflow-hidden">
+                                <img class="img-fluid w-100" src="img/office-team1.jpg" alt="">
+                                <div class="product-action">
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
+                                    <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
+                                </div>
+                            </div>
+                            <div class="text-center py-4">
+                                <a class="h6 text-decoration-none text-truncate" href="detail.html">Ofis Takımı</a>
+                                <div class="d-flex align-items-center justify-content-center mt-2">
+                                    <h5>3250 TL</h5><h6 class="text-muted ml-2"><del>5000 TL</del></h6>
+                                </div>
+                                <div class="d-flex align-items-center justify-content-center mb-1">
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="fa fa-star text-primary mr-1"></small>
+                                    <small class="far fa-star text-primary mr-1"></small>
+                                    <small class="far fa-star text-primary mr-1"></small>
+                                    <small>(99)</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <nav>
+                          <ul class="pagination justify-content-center">
+                            <li class="page-item disabled"><a class="page-link" href="#">Geri</span></a></li>
+                            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">İleri</a></li>
+                          </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <!-- Shop Product End -->
+        </div>
+    </div>
+    <!-- Shop End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-secondary mt-5 pt-5">
+        <div class="row px-xl-5 pt-5">
+            <div class="col-lg-4 col-md-12 mb-5 pr-3 pr-xl-5">
+                <h5 class="text-secondary mb-4">İLETİŞİM</h5>
+                <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i>Babil Caddesi,Çınar Sokak,İstanbul/Beyoğlu</p>
+                <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i>mlhshop@gmail.com</p>
+                <p class="mb-0"><i class="fa fa-phone-alt text-primary mr-3"></i>0212 365 45 12</p>
+            </div>
+            <div class="col-lg-8 col-md-12">
+                <div class="row">
+                    <div class="col-md-4 mb-5">
+                        <h5 class="text-secondary  mb-4">Hızlı Erişim</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-secondary mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Anasayfa</a>
+                            <a class="text-secondary mb-2" href="shop.html"><i class="fa fa-angle-right mr-2"></i>Mağazamız</a>
+                            <a class="text-secondary mb-2" href="cart.html"><i class="fa fa-angle-right mr-2"></i>Alışveriş Detayı</a>
+                            <a class="text-secondary mb-2" href="shop.html"><i class="fa fa-angle-right mr-2"></i>Alışveriş Sayfası</a>
+                            <a class="text-secondary mb-2" href="checkout.html"><i class="fa fa-angle-right mr-2"></i>Doğrula</a>
+                            <a class="text-secondary" href="contact.html"><i class="fa fa-angle-right mr-2"></i>İetişime Geç</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <h5 class="text-secondary mb-4">Hesabım</h5>
+                        <div class="d-flex flex-column justify-content-start">
+                            <a class="text-secondary mb-2" href="index.html"><i class="fa fa-angle-right mr-2"></i>Anasayfa</a>
+                            <a class="text-secondary mb-2" href="shop.html"><i class="fa fa-angle-right mr-2"></i>Mağazamız</a>
+                            <a class="text-secondary mb-2" href="cart.html"><i class="fa fa-angle-right mr-2"></i>Alışveriş Detayı</a>
+                            <a class="text-secondary mb-2" href="shop.html"><i class="fa fa-angle-right mr-2"></i>Alışveriş Sayfası</a>
+                            <a class="text-secondary mb-2" href="checkout.html"><i class="fa fa-angle-right mr-2"></i>Doğrula</a>
+                            <a class="text-secondary" href="contact.html"><i class="fa fa-angle-right mr-2"></i>İetişime Geç</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <h5 class="text-secondary text-uppercase mb-4">BÜLTEN</h5>
+                        
+                        <form action="">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Email Giriniz">
+                                <div class="input-group-append">
+                                    <a href="success.html" class="btn btn-primary">Üye Ol</a>
+                                </div>
+                            </div>
+                        </form>
+                        <h6 class="text-secondary  mt-4 mb-3">Takip Et</h6>
+                        <div class="d-flex">
+                            <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-primary btn-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-primary btn-square" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row border-top mx-xl-5 py-4" style="border-color: rgba(256, 256, 256, .1) !important;">
+            <div class="col-md-6 px-xl-0">
+                <p class="mb-md-0 text-center text-md-left text-secondary">
+                    &copy; <a class="text-primary" href="#">Domain</a>. All Rights Reserved. Designed
+                    by
+                    <a class="text-primary" href="https://htmlcodex.com">HTML Codex</a>
+                </p>
+            </div>
+            <div class="col-md-6 px-xl-0 text-center text-md-right">
+                <img class="img-fluid" src="img/payments.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
